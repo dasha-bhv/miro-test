@@ -1,0 +1,29 @@
+{
+  "name": "miro_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upgrade-webdriver": "webdriver-manager upgrade",
+    "start-webdriver": "webdriver-manager start",
+    "test": "protractor config.js"
+  },
+  "dependencies": {
+    "protractor": "^5.4.2",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.0",
+    "@types/node": "^12.12.12",
+    "@types/faker": "^4.1.7",
+    "eslint": "^6.7.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jasmine": "^4.1.0",
+    "eslint-plugin-protractor": "^2.1.1",
+    "faker": "^4.1.0"
+  },
+  "author": "dbukhonova",
+  "license": "ISC"
+}

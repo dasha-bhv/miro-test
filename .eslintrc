@@ -1,0 +1,21 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jasmine": true,
+    "protractor": true
+  },
+  "plugins": [
+    "import",
+    "async-await",
+    "protractor",
+    "jasmine"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "plugin:protractor/recommended",
+    "plugin:jasmine/recommended"
+  ]
+}
